@@ -406,6 +406,9 @@ static NSString *const ACEWidgetVersionUserDefaultsKey =            @"AppCanWidg
 
 + (BOOL)copyItemsFromPath:(NSString *)fromPath toPath:(NSString *)toPath {
     
+    //子应用解压后修改解压标识
+    [StandardUserDefaults setBool:NO forKey:ACEMainWidgetNeedPatchUpdateUserDefaultsKey];
+    
     NSError * error;
     NSFileManager * fileMgr = [NSFileManager defaultManager];
     
@@ -445,7 +448,7 @@ static NSString *const ACEWidgetVersionUserDefaultsKey =            @"AppCanWidg
                                 return NO;
                             }
                         }
-                        result =  [fileMgr moveItemAtPath:oldFilePath toPath:newFilePath error:&error];
+                        result =  [fileMgr copyItemAtPath:oldFilePath toPath:newFilePath error:&error];
                         if (!result && error) {
                             return NO;
                         }
@@ -458,7 +461,6 @@ static NSString *const ACEWidgetVersionUserDefaultsKey =            @"AppCanWidg
                 }
             }
         }
-        [fileMgr removeItemAtPath:path error:&error];
     }
     
     if (![fileMgr fileExistsAtPath:toPath isDirectory:&folderFlag]) {//如果目标路径不存在则创建
@@ -507,6 +509,10 @@ static NSString *const ACEWidgetVersionUserDefaultsKey =            @"AppCanWidg
                 }
             }
         }
+        if (pathStr) {
+            [fileMgr removeItemAtPath:path error:&error];
+        }
+//        [fileMgr removeItemAtPath:path error:&error];
     } else {
         return NO;
     }
