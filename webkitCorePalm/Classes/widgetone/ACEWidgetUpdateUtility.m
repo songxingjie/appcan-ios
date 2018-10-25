@@ -417,6 +417,8 @@ static NSString *const ACEWidgetVersionUserDefaultsKey =            @"AppCanWidg
     
     NSArray *strArr = [toPath componentsSeparatedByString:@"/"];
     
+    
+    
     if (strArr.count > 3) {
         //判断是否为补丁包更新
         NSString *thirdStr = [NSString stringWithFormat:@"%@",strArr[strArr.count - 3]];
@@ -430,9 +432,22 @@ static NSString *const ACEWidgetVersionUserDefaultsKey =            @"AppCanWidg
                 NSDirectoryEnumerator * fromEnumerator = [fileMgr enumeratorAtPath:path];
                 pathStr = [fromEnumerator nextObject];
             }
+            
             if (pathStr) {
                 path = [path stringByAppendingPathComponent:pathStr];
             }
+            
+            if (![fileMgr fileExistsAtPath:toPath isDirectory:&folderFlag]) {//如果目标路径不存在则创建
+                BOOL result = [fileMgr createDirectoryAtPath:toPath
+                                 withIntermediateDirectories:YES
+                                                  attributes:nil
+                                                       error:&error];
+                [BUtility addSkipBackupAttributeToItemAtURL:[NSURL fileURLWithPath:toPath]];
+                if (!result && error) {
+                    return NO;
+                }
+            }
+            
             //旧版本文件移到新目录中
             if ([fileMgr fileExistsAtPath:path]) {
                 NSError * error;
@@ -454,7 +469,7 @@ static NSString *const ACEWidgetVersionUserDefaultsKey =            @"AppCanWidg
                                         return NO;
                                     }
                                 }
-                                result =  [fileMgr moveItemAtPath:oldFilePath toPath:newFilePath error:&error];
+                                result =  [fileMgr copyItemAtPath:oldFilePath toPath:newFilePath error:&error];
                                 if (!result && error) {
                                     return NO;
                                 }
@@ -467,7 +482,6 @@ static NSString *const ACEWidgetVersionUserDefaultsKey =            @"AppCanWidg
                         }
                     }
                 }
-                [fileMgr removeItemAtPath:path error:&error];
             }
         }
     }
@@ -504,7 +518,7 @@ static NSString *const ACEWidgetVersionUserDefaultsKey =            @"AppCanWidg
                                 return NO;
                             }
                         }
-                        result =  [fileMgr moveItemAtPath:oldFilePath toPath:newFilePath error:&error];
+                        result =  [fileMgr copyItemAtPath:oldFilePath toPath:newFilePath error:&error];
                         if (!result && error) {
                             return NO;
                         }else{
