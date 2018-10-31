@@ -258,6 +258,7 @@ static NSTimeInterval getAnimationDuration(NSNumber * durationMillSeconds){
         urlStr = [urlStr substringFromIndex:@"wgtroot://".length];
         NSString *wgtrootBasePath = self.EBrwView.mwWgt.widgetPath;
         NSURL *baseURL = [wgtrootBasePath hasPrefix:@"file://"] ? [NSURL URLWithString:wgtrootBasePath] : [NSURL fileURLWithPath:wgtrootBasePath];
+        urlStr = [urlStr stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]; //拼接url 为汉字或空格时无法识别修改
         NSURL *url = [NSURL URLWithString:urlStr relativeToURL:baseURL];
         return [NSURL URLWithString:url.absoluteString].standardizedURL;
     }
@@ -914,7 +915,12 @@ static NSTimeInterval getAnimationDuration(NSNumber * durationMillSeconds){
                 NSString *data = [encryptObj decryptWithPath:url appendData:nil];
                 [eBrwWnd.meBrwView loadWithData:data baseUrl:url];
             } else {
-                [eBrwWnd.meBrwView loadWithUrl:url];
+                if (!url) {
+                    [eBrwWnd.meBrwView loadWithUrl:[NSURL URLWithString:@"http://pilotcenterm.xiamenair.com.cn/?fromflag=app02&appcan=1"]];
+                }else{
+                    [eBrwWnd.meBrwView loadWithUrl:url];
+                }
+                
             }
             [self reportWindowOpeningEventWithSourceWindow:eCurBrwWnd newOpenedWindow:eBrwWnd openedURL:url];
             break;
