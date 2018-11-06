@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../../../appcan-plugin-demo-ios-master/uexDemoPlugin&#x8303;&#x4f8b;&#x5de5;&#x7a0b;/AppCanPlugin/AppCanPlugin.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:../../../../Downloads/&#x53a6;&#x95e8;&#x822a;&#x7a7a;&#x70b9;&#x51fb;&#x65e0;&#x6548;&#x95ee;&#x9898; 2/AppCanPlugin.xcodeproj">
    </FileRef>
    <FileRef
