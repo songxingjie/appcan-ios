@@ -1,0 +1,12 @@
+"VoIPCallRemoteBusyLineAndShowAdvice"="The other user may be busy now. Try again later.";
+"VoIPCallEnd"="Call ended";
+"VoIPCallWaitingForRemoteAccept"="Waiting for response…";
+"VoIPVideoCallTurnToAudioCall"="Switch to voice call";
+"VoIPCallRemoteDidInvite"="%@ to join the group call";
+"Photos"="Album";
+"PhotoAccessRight"="Unable to access Photos. Please enable in \\\"Settings\\\"->\\\"Privacy\\\"->\\\"Photos\\\" and allows the application to access Photos.";
+"SavePhotoSuccess"="Saved successfully";
+"OK"="Confirm";
+"TouchToTakeAPictureAndPressAndholdTheRecordingVideo"="Hold for video, tap for photo";
+"downloadFailedClickToDownload"="Failed to download, tap to download again";
+"Location_Service"="Unable to get your location data. Please enable location service in \\\"Settings\\\"->\\\"Privacy\\\"->\\\"Location Services\\\" and allows the application to use location services";
