@@ -71,6 +71,8 @@
 		422D820B1E4C0DF100399EEA /* EngineInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EngineInfo.swift; sourceTree = "<group>"; };
 		42A72B961EC3F1E0006DD55A /* Swiftline.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swiftline.framework; path = Carthage/Build/Mac/Swiftline.framework; sourceTree = SOURCE_ROOT; };
 		42A72B971EC3F1E0006DD55A /* Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Zip.framework; path = Carthage/Build/Mac/Zip.framework; sourceTree = SOURCE_ROOT; };
+		C66A91C821CDDC7800BD948A /* emmlib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = emmlib.framework; sourceTree = "<group>"; };
+		C66A91C921CDDC7800BD948A /* uusandboxApi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = uusandboxApi.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,8 @@
 		420F71241E4B0DEC00B4C626 = {
 			isa = PBXGroup;
 			children = (
+				C66A91C821CDDC7800BD948A /* emmlib.framework */,
+				C66A91C921CDDC7800BD948A /* uusandboxApi.framework */,
 				420F712F1E4B0DEC00B4C626 /* AppCanEnginePackager */,
 				420F712E1E4B0DEC00B4C626 /* Products */,
 			);
@@ -332,6 +336,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AppCanEnginePackager",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = AppCanEnginePackager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -355,6 +360,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AppCanEnginePackager",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = AppCanEnginePackager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<widget widgetId="" sreensize="4.5" height="480" width="320" viewmode="application" version="00.00.0117" channelCode="0000" appId="EPortal" pid=""> 
+  <name>国资云通</name>  
+  <description/>  
+  <author email=""/>  
+  <icon src="icon.png"/>  
+  <license href=""/>  
+  <content encoding="utf-8" src="index.html"/>  
+  <updateurl/>  
+  <logserverip></logserverip>  
+  <showmyspace>false</showmyspace>  
+  <obfuscation>false</obfuscation>  
+  <bgcolor>#fefefe</bgcolor>  
+  <orientation>1</orientation>  
+  <config desc="privacyConfig" type="AUTHORITY"> 
+    <permission platform="iOS" info="privacy" type="camera"> 
+      <string language="en">Used to set the user avatar and scan the QR code</string>  
+      <string language="zh-Hans">设置用户头像及扫描二维码时用到。</string> 
+    </permission>  
+    <permission platform="iOS" info="privacy" type="photoLibrary"> 
+      <string language="en">To select a picture when setting a user's avatar</string>  
+      <string language="zh-Hans">用于设置用户头像时选取照片。</string> 
+    </permission> 
+  </config>  
+  <config desc="whiteList" type="AUTHORITY"> 
+    <permission platform="iOS" info="urlSchemeWhiteList"> 
+      <string>KingsoftOfficeApp</string> 
+    </permission> 
+  </config>  
+  <config desc="uexiAppOffice" type="URLSCHEME"> 
+    <urlScheme name="uexiAppOffice" schemes="['uexiAppOffice']"/> 
+  </config>  
+  <debug>true</debug>
+</widget>
