@@ -64,6 +64,7 @@
 		117BDBDF21CE2B0400793F12 /* emoji_hover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 117BDBAB21CE2B0400793F12 /* emoji_hover@2x.png */; };
 		117BDBE021CE2B0400793F12 /* talk_hover@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 117BDBAC21CE2B0400793F12 /* talk_hover@3x.png */; };
 		117BDBE121CE2B0400793F12 /* emoji_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 117BDBAD21CE2B0400793F12 /* emoji_hover.png */; };
+		117C57C021D233B400B0A984 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 117C57BF21D233B400B0A984 /* libopencore-amrnb.a */; };
 		11B2DCA321CCC51C00CF7E76 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B2DCA221CCC51C00CF7E76 /* Contacts.framework */; };
 		11B2DCA521CCC59E00CF7E76 /* CallKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B2DCA421CCC59E00CF7E76 /* CallKit.framework */; };
 		11B2DCA721CCC5C200CF7E76 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B2DCA621CCC5C200CF7E76 /* libiconv.2.4.0.tbd */; };
@@ -210,6 +211,7 @@
 		117BDBAB21CE2B0400793F12 /* emoji_hover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_hover@2x.png"; sourceTree = "<group>"; };
 		117BDBAC21CE2B0400793F12 /* talk_hover@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "talk_hover@3x.png"; sourceTree = "<group>"; };
 		117BDBAD21CE2B0400793F12 /* emoji_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_hover.png; sourceTree = "<group>"; };
+		117C57BF21D233B400B0A984 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
 		11B2DCA221CCC51C00CF7E76 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
 		11B2DCA421CCC59E00CF7E76 /* CallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CallKit.framework; path = System/Library/Frameworks/CallKit.framework; sourceTree = SDKROOT; };
 		11B2DCA621CCC5C200CF7E76 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
@@ -333,6 +335,7 @@
 				6CC6037D157DCCEF00A3E13E /* CoreTelephony.framework in Frameworks */,
 				6CC6037E157DCCEF00A3E13E /* CoreVideo.framework in Frameworks */,
 				6CC6037F157DCCEF00A3E13E /* MobileCoreServices.framework in Frameworks */,
+				117C57C021D233B400B0A984 /* libopencore-amrnb.a in Frameworks */,
 				6CC60380157DCCEF00A3E13E /* OpenAL.framework in Frameworks */,
 				6CC60381157DCCEF00A3E13E /* OpenGLES.framework in Frameworks */,
 				6CC60382157DCCEF00A3E13E /* QuartzCore.framework in Frameworks */,
@@ -348,6 +351,7 @@
 		117BDB6621CE29E400793F12 /* DZuexIMExfloder */ = {
 			isa = PBXGroup;
 			children = (
+				117C57BF21D233B400B0A984 /* libopencore-amrnb.a */,
 				117BDB7521CE2B0400793F12 /* ReplaceSDKImages */,
 				117BDB7321CE2AEC00793F12 /* jrmf.cer */,
 				117BDB6F21CE2AA200793F12 /* RCEDefaultTheme.strings */,
@@ -938,6 +942,7 @@
 					"\"$(SRCROOT)/AppCanPlugin/engine\"",
 					"\"$(SRCROOT)/AppCanPlugin/uexLib\"",
 					"$(PROJECT_DIR)/AppCanPlugin/engine",
+					"$(PROJECT_DIR)/DZuexIMExfloder",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
@@ -976,6 +981,7 @@
 					"\"$(SRCROOT)/AppCanPlugin/engine\"",
 					"\"$(SRCROOT)/AppCanPlugin/uexLib\"",
 					"$(PROJECT_DIR)/AppCanPlugin/engine",
+					"$(PROJECT_DIR)/DZuexIMExfloder",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
@@ -1052,6 +1058,7 @@
 					"\"$(SRCROOT)/AppCanPlugin/engine\"",
 					"\"$(SRCROOT)/AppCanPlugin/uexLib\"",
 					"$(PROJECT_DIR)/AppCanPlugin/engine",
+					"$(PROJECT_DIR)/DZuexIMExfloder",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";

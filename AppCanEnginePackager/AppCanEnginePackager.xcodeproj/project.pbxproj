@@ -205,7 +205,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "version=\"\"\nsummary=\"\"\nsuffix=\"\"\n\ncd \"${BUILD_DIR}/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}/AppCanEnginePackager.app/Contents/MacOS/\"\n./AppCanEnginePackager -version $version -summary $summary -suffix $suffix -src $SRCROOT\nopen \"$SRCROOT/../archives\"\n";
+			shellScript = "version=\"\"\nsummary=\"\"\nsuffix=\"YTDZ\"\n\ncd \"${BUILD_DIR}/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}/AppCanEnginePackager.app/Contents/MacOS/\"\n./AppCanEnginePackager -version $version -summary $summary -suffix $suffix -src $SRCROOT\nopen \"$SRCROOT/../archives\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
