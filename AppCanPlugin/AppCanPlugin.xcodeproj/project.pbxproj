@@ -66,7 +66,6 @@
 		117BDBE121CE2B0400793F12 /* emoji_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 117BDBAD21CE2B0400793F12 /* emoji_hover.png */; };
 		117C57C021D233B400B0A984 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 117C57BF21D233B400B0A984 /* libopencore-amrnb.a */; };
 		11B2DCA321CCC51C00CF7E76 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B2DCA221CCC51C00CF7E76 /* Contacts.framework */; };
-		11B2DCA521CCC59E00CF7E76 /* CallKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B2DCA421CCC59E00CF7E76 /* CallKit.framework */; };
 		11B2DCA721CCC5C200CF7E76 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B2DCA621CCC5C200CF7E76 /* libiconv.2.4.0.tbd */; };
 		3C5AF6ED1A4D36E7008F8A3D /* widget in Resources */ = {isa = PBXBuildFile; fileRef = 3C5AF6EC1A4D36E7008F8A3D /* widget */; };
 		3C81BA991A4AA29F00C4B7C1 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C81BA981A4AA29F00C4B7C1 /* Image.xcassets */; };
@@ -220,7 +219,6 @@
 		117BDBAD21CE2B0400793F12 /* emoji_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_hover.png; sourceTree = "<group>"; };
 		117C57BF21D233B400B0A984 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
 		11B2DCA221CCC51C00CF7E76 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
-		11B2DCA421CCC59E00CF7E76 /* CallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CallKit.framework; path = System/Library/Frameworks/CallKit.framework; sourceTree = SDKROOT; };
 		11B2DCA621CCC5C200CF7E76 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
 		3C5AF6EC1A4D36E7008F8A3D /* widget */ = {isa = PBXFileReference; lastKnownFileType = folder; path = widget; sourceTree = "<group>"; };
 		3C81BA981A4AA29F00C4B7C1 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
@@ -304,7 +302,6 @@
 			files = (
 				1100CDED21CCC69400DBEAB3 /* GLKit.framework in Frameworks */,
 				11B2DCA721CCC5C200CF7E76 /* libiconv.2.4.0.tbd in Frameworks */,
-				11B2DCA521CCC59E00CF7E76 /* CallKit.framework in Frameworks */,
 				11B2DCA321CCC51C00CF7E76 /* Contacts.framework in Frameworks */,
 				696128432080BABE00CCE18C /* CoreFoundation.framework in Frameworks */,
 				42D96D4B1DAB7B69001ABB17 /* VideoToolbox.framework in Frameworks */,
@@ -500,7 +497,6 @@
 			children = (
 				1100CDEC21CCC69400DBEAB3 /* GLKit.framework */,
 				11B2DCA621CCC5C200CF7E76 /* libiconv.2.4.0.tbd */,
-				11B2DCA421CCC59E00CF7E76 /* CallKit.framework */,
 				11B2DCA221CCC51C00CF7E76 /* Contacts.framework */,
 				696128422080BABE00CCE18C /* CoreFoundation.framework */,
 				42D96D4A1DAB7B69001ABB17 /* VideoToolbox.framework */,
