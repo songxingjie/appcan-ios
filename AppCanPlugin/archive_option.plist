@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>APPIDS</key>
+		<string>NAME</string>
+		<key>com.appcan.matest.appex</key>
+		<string>5bd21708-6f6a-467f-9a07-76e384f0a82f</string>
+	</dict>
+	<key>method</key>
+	<string>PackageMethod</string>
+	<key>teamID</key>
+	<string>TEAMID</string>
+</dict>
+</plist>
