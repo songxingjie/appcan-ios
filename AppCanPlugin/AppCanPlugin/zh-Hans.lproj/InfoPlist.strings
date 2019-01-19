@@ -1,2 +1,35 @@
-/* Localized versions of Info.plist keys */
+NSCameraUsageDescription = "设置用户头像及扫描二维码时用到。";
+NSPhotoLibraryUsageDescription = "用于设置用户头像时选取照片。";
 
+"AllMuteOpen"="群主已开启“全员禁言”";
+"AllMuteClose"="群主已关闭“全员禁言”";
+"MuteAdd"="%@已被群主禁言";
+"MuteRemove"="%@已被群主解除禁言";
+"GroupApprove"="%@邀请%@加入%@群";
+"GroupTransferManager"="%@已成为新群主";
+"GroupTransferManagerOfYou"="%@已成为新群主";
+
+"YouLeftSpace"="你";
+"YouBothSidesSpace"="你";
+"YouRightSpace"="你";
+"You"="你";
+"GroupClearNotice"="%@清空了群公告";
+"GroupApproveTitle"="入群申请";
+"GroupNotice"="群公告";
+"GroupDismiss"="该群组已被解散";
+"CreateDepartment"="欢迎加入%@";
+"JoinToDepartment"="欢迎%@加入%@";
+"ModifyDepartmentName"="群名称被修改为%@";
+"DepartmentWasRemoved"="%@被移出群组";
+"DepartmentWereRemoved"="%@被移出群组";
+
+"GroupCreated"="%@创建了群组";
+"GroupInvited"="%@邀请%@加入群组";
+"GroupRemoved"="%@将%@移出群组";
+"GroupByRemoved"="%@被%@移出群组";
+"GroupQuit"="%@退出了群组";
+"GroupChanged"="%@修改群名为\"%@\"";
+"GroupJoin"="%@加入了群组";
+"MessageHasRecalled"="撤回了一条消息";
+"MessageHaveRecalled"="撤回了一条消息";
+"GroupMemberSeparator"="、";
