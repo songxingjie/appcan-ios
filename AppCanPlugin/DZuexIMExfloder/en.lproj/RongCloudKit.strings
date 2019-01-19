@@ -242,3 +242,9 @@
 "Send"="Send";
 "TouchToTakeAPictureAndPressAndholdTheRecordingVideo"="Hold for video, tap for photo";
 "downloadFailedClickToDownload"="Failed to download, tap to download again";
+"YouLeftSpace"="You ";
+"YouBothSidesSpace"=" you ";
+"YouRightSpace"=" you";
+"You"="You";
+"GroupMemberSeparator"="、";
+

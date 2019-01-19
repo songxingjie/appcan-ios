@@ -242,3 +242,8 @@
 "Send"="发送";
 "TouchToTakeAPictureAndPressAndholdTheRecordingVideo"="轻触拍摄，按住摄像";
 "downloadFailedClickToDownload"="下载失败，点击重新下载";
+"YouLeftSpace"="你";
+"YouBothSidesSpace"="你";
+"YouRightSpace"="你";
+"You"="你";
+"GroupMemberSeparator"=",";
