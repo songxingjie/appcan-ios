@@ -4,6 +4,7 @@
 <dict>
 	<key>4.2.18</key>
 	<array>
+		<string>修改InfoPlist.strings文件，配置聊天系统提示消息内容</string>
 		<string>修复子应用更新问题</string>
 		<string>子应用更新问题修改</string>
 		<string>修复uexWindow.open 无法打开页面的bug</string>
