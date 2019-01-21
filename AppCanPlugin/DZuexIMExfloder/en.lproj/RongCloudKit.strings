@@ -172,7 +172,7 @@
 "GroupInvited"="%@ invited %@ to join the group";
 "GroupRemoved"="%@ removed %@ from the group chat";
 "GroupByRemoved"="%@ were removed from the group chat by %@";
-"GroupDismiss"="%@ dismissed the group";
+"GroupDismiss"="Group has been disbanded";
 "GroupQuit"="%@ quitted the group";
 "GroupChanged"="%@ changed the group name to \"%@\"";
 "GroupJoin"="%@ joined the group";

@@ -172,7 +172,7 @@
 "GroupInvited"="%@邀请%@加入了群组";
 "GroupRemoved"="%@将%@移出了群组";
 "GroupByRemoved"="%@被%@移出了群组";
-"GroupDismiss"="%@解散了群组";
+"GroupDismiss"="该群组已被解散";
 "GroupQuit"="%@退出了群组";
 "GroupChanged"="%@修改群名为“%@”";
 "GroupJoin"="%@加入了群组";
