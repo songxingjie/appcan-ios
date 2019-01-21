@@ -242,9 +242,29 @@
 "Send"="Send";
 "TouchToTakeAPictureAndPressAndholdTheRecordingVideo"="Hold for video, tap for photo";
 "downloadFailedClickToDownload"="Failed to download, tap to download again";
+
+"AllMuteOpen"="The admin has enabled all-member silence";
+"AllMuteClose"="The admin has disabled all-member silence";
+"MuteAdd"="%@has been silenced by admin";
+"MuteRemove"="%@has been released to speak by admin";
+"GroupApprove"="%@invited%@to join%@";
+"GroupTransferManager"="%@has become new admin";
+"GroupTransferManagerOfYou"="%@have become new admin";
 "YouLeftSpace"="You ";
 "YouBothSidesSpace"=" you ";
 "YouRightSpace"=" you";
 "You"="You";
-"GroupMemberSeparator"="、";
+"GroupClearNotice"="%@clear notice";
+"GroupApproveTitle"="Group Join Request";
+"GroupNotice"="Notice";
+"CreateDepartment"="Welcome to join%@";
+"JoinToDepartment"="Welcome%@join%@";
+"ModifyDepartmentName"="The group name has been changed to%@";
+"DepartmentTransferManager"="%@becomes new admin";
+"DepartmentWasRemoved"="%@was removed from the group";
+"DepartmentWereRemoved"="%@were removed from the group";
+"MessageHasRecalled"="has recalled a message";
+"MessageHaveRecalled"="have recalled a message";
+"GroupMemberSeparator"=",";
+
 
