@@ -284,7 +284,7 @@
 		B2403BF61833923A002530F6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		B2403BF818339267002530F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B2D89A9718338CF600C6F041 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		C66A91D521CDF72100BD948A /* AppCanPlugin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppCanPlugin.entitlements; sourceTree = "<group>"; };
+		C654D1F221FFE199000E2863 /* AppCanPlugin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = AppCanPlugin.entitlements; path = ../../../Desktop/AppCanPlugin.entitlements; sourceTree = "<group>"; };
 		C67E863721F5BABD00DF2B47 /* uusandboxApi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = uusandboxApi.framework; sourceTree = "<group>"; };
 		C67E863821F5BABD00DF2B47 /* emmlib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = emmlib.framework; sourceTree = "<group>"; };
 		C6FBE11A21F705D900584424 /* AppCanEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCanEngine.framework; sourceTree = "<group>"; };
@@ -550,7 +550,7 @@
 		6CC6033B157DCC0F00A3E13E /* AppCanPlugin */ = {
 			isa = PBXGroup;
 			children = (
-				C66A91D521CDF72100BD948A /* AppCanPlugin.entitlements */,
+				C654D1F221FFE199000E2863 /* AppCanPlugin.entitlements */,
 				3C81BA981A4AA29F00C4B7C1 /* Image.xcassets */,
 				469DCDD0166EFA5100FC2F72 /* uexFrameworks */,
 				6CC603A7157DD65E00A3E13E /* WidgetOnePseudoDelegate.h */,
@@ -943,7 +943,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_ENTITLEMENTS = AppCanPlugin/AppCanPlugin.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ../../Desktop/AppCanPlugin.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CODE_SIGN_STYLE = Manual;
@@ -990,7 +990,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_ENTITLEMENTS = AppCanPlugin/AppCanPlugin.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ../../Desktop/AppCanPlugin.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing benefits Thai Electronics Group Co., Ltd.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing benefits Thai Electronics Group Co., Ltd.";
 				CODE_SIGN_STYLE = Manual;
@@ -1075,7 +1075,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_ENTITLEMENTS = AppCanPlugin/AppCanPlugin.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ../../Desktop/AppCanPlugin.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing benefits Thai Electronics Group Co., Ltd.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing benefits Thai Electronics Group Co., Ltd.";
 				CODE_SIGN_STYLE = Manual;

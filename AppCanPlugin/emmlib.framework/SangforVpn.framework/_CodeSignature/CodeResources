@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		3y++sUAKzaCQmjLBz2v0kvESHgc=
-		</data>
 		<key>Headers/SangforAuthHeader.h</key>
 		<data>
 		FqKjH8yHdT02mABhMaKDxaD9vHA=
@@ -35,6 +31,22 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		m+Kq7OiB79PVgokYJti2PNCEIrc=
+		</data>
+		<key>PacketTunnel.appex/Info.plist</key>
+		<data>
+		anjtYthFb4qcOT70OLf7ncxELvc=
+		</data>
+		<key>PacketTunnel.appex/PacketTunnel</key>
+		<data>
+		h9uizgP7LP0+AfQ5dMUZ1g4XB84=
+		</data>
+		<key>PacketTunnel.appex/_CodeSignature/CodeResources</key>
+		<data>
+		aIwEEY3QfJc4mDyhUq1C9Hk9K0c=
+		</data>
+		<key>PacketTunnel.appex/embedded.mobileprovision</key>
+		<data>
+		lvjDrhFcRbKwL83sscbm08+/hRU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -103,6 +115,50 @@
 			<key>hash2</key>
 			<data>
 			d2tWedA89Kwl3oaWgY+6s1j6CuvC4sns3YUgFXuq6mI=
+			</data>
+		</dict>
+		<key>PacketTunnel.appex/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			anjtYthFb4qcOT70OLf7ncxELvc=
+			</data>
+			<key>hash2</key>
+			<data>
+			n2k4NO172Tne6lXMtwvKXMG0VKF3fGIjqyZbyyRaEug=
+			</data>
+		</dict>
+		<key>PacketTunnel.appex/PacketTunnel</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			h9uizgP7LP0+AfQ5dMUZ1g4XB84=
+			</data>
+			<key>hash2</key>
+			<data>
+			7gwI+tgvRTcQ6U9S21sOXqn6H8mfuF7R73LvLTOJV6Y=
+			</data>
+		</dict>
+		<key>PacketTunnel.appex/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aIwEEY3QfJc4mDyhUq1C9Hk9K0c=
+			</data>
+			<key>hash2</key>
+			<data>
+			vIaIAhQL2JASYGQq3wrg7fFag0HoSa3jjP6XH5O+ulA=
+			</data>
+		</dict>
+		<key>PacketTunnel.appex/embedded.mobileprovision</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lvjDrhFcRbKwL83sscbm08+/hRU=
+			</data>
+			<key>hash2</key>
+			<data>
+			4b/NfQYt76A+Oqefcp4Cz5VGAa1DY0bdD19Y89p2iQs=
 			</data>
 		</dict>
 	</dict>
