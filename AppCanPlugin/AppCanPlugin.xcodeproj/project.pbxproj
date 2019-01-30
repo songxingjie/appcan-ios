@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1100CDED21CCC69400DBEAB3 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1100CDEC21CCC69400DBEAB3 /* GLKit.framework */; };
+		110CA958220128F1005E917C /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110CA957220128F1005E917C /* UserNotifications.framework */; };
 		117BDB6921CE2A6300793F12 /* RongCloudKit.strings in Resources */ = {isa = PBXBuildFile; fileRef = 117BDB6721CE2A6300793F12 /* RongCloudKit.strings */; };
 		117BDB6D21CE2A8000793F12 /* JrmfInfo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 117BDB6B21CE2A8000793F12 /* JrmfInfo.strings */; };
 		117BDB7121CE2AA200793F12 /* RCEDefaultTheme.strings in Resources */ = {isa = PBXBuildFile; fileRef = 117BDB6F21CE2AA200793F12 /* RCEDefaultTheme.strings */; };
@@ -124,9 +125,9 @@
 		6CC603A9157DD65E00A3E13E /* WidgetOnePseudoDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC603A8157DD65E00A3E13E /* WidgetOnePseudoDelegate.m */; };
 		6CC60442157DCC0F00A3E13E /* Beqtucontent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC60441157DCC0F00A3E13E /* Beqtucontent.m */; };
 		B2403BF51833923A002530F6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2403BF71833923A002530F6 /* Localizable.strings */; };
+		C640364222018AA600ED4439 /* uusandboxApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C646E52921FB448E005CC4E0 /* uusandboxApi.framework */; };
 		C646E52C21FB448E005CC4E0 /* emmlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C646E52A21FB448E005CC4E0 /* emmlib.framework */; };
 		C646E52E21FB449A005CC4E0 /* emmlib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C646E52A21FB448E005CC4E0 /* emmlib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C646E52F21FB449A005CC4E0 /* uusandboxApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C646E52921FB448E005CC4E0 /* uusandboxApi.framework */; };
 		C646E53021FB449A005CC4E0 /* uusandboxApi.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C646E52921FB448E005CC4E0 /* uusandboxApi.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C6FBE11C21F705D900584424 /* AppCanEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6FBE11A21F705D900584424 /* AppCanEngine.framework */; };
 		C6FBE11D21F705D900584424 /* AppCanKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6FBE11B21F705D900584424 /* AppCanKit.framework */; };
@@ -159,6 +160,7 @@
 
 /* Begin PBXFileReference section */
 		1100CDEC21CCC69400DBEAB3 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		110CA957220128F1005E917C /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		117BDB6821CE2A6300793F12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/RongCloudKit.strings; sourceTree = "<group>"; };
 		117BDB6A21CE2A6F00793F12 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/RongCloudKit.strings"; sourceTree = "<group>"; };
 		117BDB6C21CE2A8000793F12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = JrmfIMLib/en.lproj/JrmfInfo.strings; sourceTree = "<group>"; };
@@ -301,11 +303,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C646E52F21FB449A005CC4E0 /* uusandboxApi.framework in Frameworks */,
+				C646E52C21FB448E005CC4E0 /* emmlib.framework in Frameworks */,
+				C640364222018AA600ED4439 /* uusandboxApi.framework in Frameworks */,
+				110CA958220128F1005E917C /* UserNotifications.framework in Frameworks */,
 				1100CDED21CCC69400DBEAB3 /* GLKit.framework in Frameworks */,
 				11B2DCA721CCC5C200CF7E76 /* libiconv.2.4.0.tbd in Frameworks */,
 				11B2DCA321CCC51C00CF7E76 /* Contacts.framework in Frameworks */,
-				C646E52C21FB448E005CC4E0 /* emmlib.framework in Frameworks */,
 				696128432080BABE00CCE18C /* CoreFoundation.framework in Frameworks */,
 				42D96D4B1DAB7B69001ABB17 /* VideoToolbox.framework in Frameworks */,
 				6CC60376157DCCEF00A3E13E /* AudioToolbox.framework in Frameworks */,
@@ -497,6 +500,7 @@
 		6CC60334157DCC0F00A3E13E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				110CA957220128F1005E917C /* UserNotifications.framework */,
 				1100CDEC21CCC69400DBEAB3 /* GLKit.framework */,
 				11B2DCA621CCC5C200CF7E76 /* libiconv.2.4.0.tbd */,
 				11B2DCA221CCC51C00CF7E76 /* Contacts.framework */,
