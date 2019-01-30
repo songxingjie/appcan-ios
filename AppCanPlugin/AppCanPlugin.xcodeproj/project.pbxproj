@@ -976,7 +976,7 @@
 					"-ObjC",
 					"-fprofile-instr-generate",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gzyt.beta;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ether.guoziyt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1022,10 +1022,10 @@
 					"-ObjC",
 					"-fprofile-instr-generate",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gzyt.beta;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ether.guoziyt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e08d1173-5f36-44ce-8845-9a68dd295c4f";
-				PROVISIONING_PROFILE_SPECIFIER = com.gzyt.beta.profiles;
+				PROVISIONING_PROFILE = "5ff8c0e3-c8cf-41db-a856-d95e51b11553";
+				PROVISIONING_PROFILE_SPECIFIER = gzyt;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1106,7 +1106,7 @@
 					"-ObjC",
 					"-fprofile-instr-generate",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gzyt.beta;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ether.guoziyt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
