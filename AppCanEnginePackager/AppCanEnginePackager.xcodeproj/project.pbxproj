@@ -23,17 +23,14 @@
 
 /* Begin PBXBuildFile section */
 		420F713F1E4B0EEE00B4C626 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F713E1E4B0EEE00B4C626 /* main.swift */; };
-		420F732D1E4B189400B4C626 /* LzmaSDK_ObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420F732C1E4B189400B4C626 /* LzmaSDK_ObjC.framework */; };
-		420F732E1E4B18AF00B4C626 /* LzmaSDK_ObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420F732C1E4B189400B4C626 /* LzmaSDK_ObjC.framework */; };
-		420F732F1E4B18AF00B4C626 /* LzmaSDK_ObjC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 420F732C1E4B189400B4C626 /* LzmaSDK_ObjC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		422D82081E4C08CC00399EEA /* XcodeBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D82071E4C08CC00399EEA /* XcodeBuild.swift */; };
 		422D820C1E4C0DF100399EEA /* EngineInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D820B1E4C0DF100399EEA /* EngineInfo.swift */; };
-		42A72B981EC3F1E0006DD55A /* Swiftline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A72B961EC3F1E0006DD55A /* Swiftline.framework */; };
-		42A72B991EC3F1E0006DD55A /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A72B971EC3F1E0006DD55A /* Zip.framework */; };
-		42A72B9A1EC3F1F5006DD55A /* Swiftline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A72B961EC3F1E0006DD55A /* Swiftline.framework */; };
-		42A72B9B1EC3F1F5006DD55A /* Swiftline.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 42A72B961EC3F1E0006DD55A /* Swiftline.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		42A72B9C1EC3F1F5006DD55A /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A72B971EC3F1E0006DD55A /* Zip.framework */; };
-		42A72B9D1EC3F1F5006DD55A /* Zip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 42A72B971EC3F1E0006DD55A /* Zip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C6B48D402201A28B00A0CC92 /* Swiftline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A72B961EC3F1E0006DD55A /* Swiftline.framework */; };
+		C6B48D412201A28B00A0CC92 /* Swiftline.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 42A72B961EC3F1E0006DD55A /* Swiftline.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C6B48D422201A28B00A0CC92 /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A72B971EC3F1E0006DD55A /* Zip.framework */; };
+		C6B48D432201A28B00A0CC92 /* Zip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 42A72B971EC3F1E0006DD55A /* Zip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C6B48D442201A28B00A0CC92 /* LzmaSDK_ObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420F732C1E4B189400B4C626 /* LzmaSDK_ObjC.framework */; };
+		C6B48D452201A28B00A0CC92 /* LzmaSDK_ObjC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 420F732C1E4B189400B4C626 /* LzmaSDK_ObjC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,15 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		420F73301E4B18AF00B4C626 /* Embed Frameworks */ = {
+		C6B48D462201A28B00A0CC92 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				42A72B9B1EC3F1F5006DD55A /* Swiftline.framework in Embed Frameworks */,
-				42A72B9D1EC3F1F5006DD55A /* Zip.framework in Embed Frameworks */,
-				420F732F1E4B18AF00B4C626 /* LzmaSDK_ObjC.framework in Embed Frameworks */,
+				C6B48D452201A28B00A0CC92 /* LzmaSDK_ObjC.framework in Embed Frameworks */,
+				C6B48D432201A28B00A0CC92 /* Zip.framework in Embed Frameworks */,
+				C6B48D412201A28B00A0CC92 /* Swiftline.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,12 +75,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42A72B991EC3F1E0006DD55A /* Zip.framework in Frameworks */,
-				42A72B9A1EC3F1F5006DD55A /* Swiftline.framework in Frameworks */,
-				420F732D1E4B189400B4C626 /* LzmaSDK_ObjC.framework in Frameworks */,
-				420F732E1E4B18AF00B4C626 /* LzmaSDK_ObjC.framework in Frameworks */,
-				42A72B9C1EC3F1F5006DD55A /* Zip.framework in Frameworks */,
-				42A72B981EC3F1E0006DD55A /* Swiftline.framework in Frameworks */,
+				C6B48D442201A28B00A0CC92 /* LzmaSDK_ObjC.framework in Frameworks */,
+				C6B48D422201A28B00A0CC92 /* Zip.framework in Frameworks */,
+				C6B48D402201A28B00A0CC92 /* Swiftline.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +89,7 @@
 			children = (
 				420F712F1E4B0DEC00B4C626 /* AppCanEnginePackager */,
 				420F712E1E4B0DEC00B4C626 /* Products */,
+				C6B48D352201A23800A0CC92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +115,13 @@
 			path = AppCanEnginePackager;
 			sourceTree = "<group>";
 		};
+		C6B48D352201A23800A0CC92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -130,7 +132,7 @@
 				420F71291E4B0DEC00B4C626 /* Sources */,
 				420F712A1E4B0DEC00B4C626 /* Frameworks */,
 				420F712B1E4B0DEC00B4C626 /* Resources */,
-				420F73301E4B18AF00B4C626 /* Embed Frameworks */,
+				C6B48D462201A28B00A0CC92 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -205,7 +207,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "version=\"\"\nsummary=\"\"\nsuffix=\"ZZY-Song\"\n\ncd \"${BUILD_DIR}/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}/AppCanEnginePackager.app/Contents/MacOS/\"\n./AppCanEnginePackager -version $version -summary $summary -suffix $suffix -src $SRCROOT\nopen \"$SRCROOT/../archives\"\n";
+			shellScript = "version=\"\"\nsummary=\"\"\nsuffix=\"ZZY-Song-Beta\"\n\ncd \"${BUILD_DIR}/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}/AppCanEnginePackager.app/Contents/MacOS/\"\n./AppCanEnginePackager -version $version -summary $summary -suffix $suffix -src $SRCROOT\nopen \"$SRCROOT/../archives\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
