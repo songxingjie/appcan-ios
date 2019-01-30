@@ -1,6 +1,0 @@
-framework module SangforEasyAppVpn {
-  umbrella header "SangforEasyAppVpn.h"
-
-  export *
-  module * { export * }
-}

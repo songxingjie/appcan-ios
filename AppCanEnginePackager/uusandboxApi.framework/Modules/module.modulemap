@@ -1,6 +1,0 @@
-framework module uusandboxApi {
-  umbrella header "uusandboxApi.h"
-
-  export *
-  module * { export * }
-}
