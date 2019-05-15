@@ -280,7 +280,7 @@ static BOOL userCustomLoadingImageEnabled = NO;
             } else if (iPhone6Plus) {
                 launchImageName = [NSString stringWithFormat:@"%@-800-Portrait-736h@3x", launchImagePrefixFile];
             } else if (iPhoneX) {
-                launchImageName = [NSString stringWithFormat:@"%@-1100-Portrait-2436h", launchImagePrefixFile];
+                launchImageName = [NSString stringWithFormat:@"%@-800-Portrait-812h@3x", launchImagePrefixFile];
             } else if (iPhoneXR) {
                 launchImageName = [NSString stringWithFormat:@"%@-1200-Portrait-1792h@2x", launchImagePrefixFile];
             } else if (iPhoneXS_Max) {

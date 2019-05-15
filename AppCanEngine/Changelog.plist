@@ -7,6 +7,7 @@
 		<string>Xcode10/Xcode10+以上版本 适配ios12，包括添加启动图及状态栏，导航栏和tabbar的高度 iPhoneXs，iPhoneiPhoneXs Max ,iPHoneXr</string>
 		<string>修复启动图在iPhone XS Max 拉伸bug</string>
 		<string>修改iPhone 6,7,8P尺寸启动图拉伸问题</string>
+		<string>引擎定制：中核中核项目，更换iPhone X及iPhoneXs，iPhoneiPhoneXs Max ,iPHoneXr启动图</string>
 	</array>
 	<key>4.2.17</key>
 	<array>
