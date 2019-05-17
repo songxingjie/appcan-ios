@@ -216,6 +216,9 @@
 
 
     [AppCanEngine initializeWithConfiguration:self];
+    
+    [IQKeyboardManager sharedManager].enable = NO;
+    
     //应用从未启动到启动，获取本地通知信息
     if (launchOptions && [launchOptions objectForKey:UIApplicationLaunchOptionsLocalNotificationKey] ) {
         [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
